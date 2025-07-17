@@ -87,8 +87,8 @@ ul li{
 
 /*feature section*/
 .Feature-section{
+    max-width: 1100px;
     display: flex;
-    /* gap: 70px; */
     align-items: center;
     margin-top: 85px;
 }
@@ -129,6 +129,101 @@ ul li{
     color: #FF900E;
     font-size: 3rem;
     font-family: work sans;
+}
+
+/*project-section*/
+.project-title{
+    margin-top: 130px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: work sans;
+}
+
+.project-description{
+    margin-bottom: 100px;
+    font-size: 1rem;
+    color: #727272;
+    font-family: work sans;
+}
+
+.card-container{
+    display: flex;
+    gap: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card-items-1, .card-items-2, .card-items-3, .card-items-4{
+    border: 1px solid #FF900E;
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 70px 40px 70px;
+    box-sizing: border-box;
+}
+
+.box-title{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #424242;
+    font-family: work sans;
+    padding-top: 10px;
+    margin: 0%;
+}
+
+.box-description{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #727272;
+    font-family: work sans;
+    padding: 10px;
+    margin: 0%;
+}
+
+/*sponsor section*/
+.sponsor-title{
+    margin-top: 130px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: work sans;  
+}
+
+.sponsor-description{
+    margin-bottom: 100px;
+    font-size: 1rem;
+    color: #727272;
+    font-family: work sans;
+}
+
+.sponsor-header{
+    text-align: center;
+    /* width: 400px;
+    height: 100px; */
+}
+
+.sponsor-image{
+    display: flex;
+    gap: 60px;
+    filter: grayscale(100%);
+}
+
+
+/*footer section*/
+footer{
+    background-color: rgba(255, 144, 14, 0.10);
+    max-width: 1100px;
+    height: 80px;
+    border-radius: 8px;
+    margin: 100px auto;  
+}
+
+.footer-description{
+    margin-top: 100px;
+    padding: 30px 150px;
+    font-size: 1rem;
+    font-family: work sans;
+    color: #424242;   
 }
 
 /*responsive media query*/
